@@ -1,0 +1,60 @@
+body {
+  background-color:rgb(255, 69, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 56px;
+  color:white;
+  margin-bottom: 32px;
+}
+
+.beneficio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  gap: 2rem;
+}
+
+.beneficio-item {
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color:white;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+
+.beneficio-item h2 {
+  color:black;
+}
+
+
+.beneficio-item p {
+  color:black;
+  font-size: 24px;
+
+}
+.cta-button {
+  background-color:rgb(0, 0, 0);
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+}
